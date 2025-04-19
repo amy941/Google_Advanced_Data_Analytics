@@ -152,7 +152,7 @@ stats.ttest_ind(a=not_verified, b=verified, equal_var=False)
 
 🔁 Do the same for "verifed" case.
 
-![p_value_tiktok(https://github.com/user-attachments/assets/d37bdd69-2990-40a6-a752-ac1dffcca7ff)
+![p_value_tiktok](https://github.com/user-attachments/assets/d37bdd69-2990-40a6-a752-ac1dffcca7ff)
 
 ✍ Proceed with a **two-sample t-test** to compute p-value given 5% as the significant level. After excecuting the code, p-value is (2.61e^-118)%, negligible!
 
