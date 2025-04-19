@@ -2,7 +2,8 @@
 # OVERVIEW:
 
 # Case Study: TikTok 🎵
-## Link here: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+## Link here: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
+                                   
 
 ## Scenario:
 The TikTok data team aims to develop a machine learning model to classify claims from user submissions, requiring data analysis and preparation before model building. At this stage, they performed exploratory data analysis (EDA) to understand how videos impact users. The analysis focused on key engagement metrics like view count, like count, comment count, etc.
@@ -66,7 +67,7 @@ data = pd.read_csv("tiktok_dataset.csv")
 * video_download_count: max = ~15,000
 * video_comment_count: max = ~10,000
 
-⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
 ---
 
@@ -107,7 +108,7 @@ plt.show()
 
 🔁 Write similar code blocks for ```video_view_count```, ```video_comment_count```, ```video_share_count```, ```video_download_count```
 
-⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
 ```python
 plt.figure(figsize=(5,3))
@@ -136,7 +137,7 @@ plt.show()
 
 ✍️ ```labels = [str(i) + 'k' for i in range(0, 701, 100)] ```: use for loops to iterate over ```range(0,701,100)``` (start from 0 to 701 in steps of 100). Each number ``i``` is converted into a string and ```k``` is added to show values in a more readable way (ex: 100k instead of 100,000).
 
-⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
 -----
 **Create HISTOGRAM for claim status**
@@ -193,7 +194,7 @@ plt.show()
 **alpha=0.5** to set the transparency of the bar. 0 is fully transparent, 0.5 is semi-transparent, and 1 is fully opaque.
 
 
-⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
 
 ---
@@ -245,7 +246,7 @@ plt.show()
 ```
 ![scatterplot](https://github.com/user-attachments/assets/709bb0df-689f-40f9-b988-a8edfa5d6191)
 
-⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
 ---
 # PACE: Execute 🤝
