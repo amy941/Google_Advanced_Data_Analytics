@@ -4,7 +4,7 @@ Little did I know that Statistics is the backbone in data 😅 In this end-of-co
 - *Case Study 2:* **TikTok,** a short-form video hosting firm
 
 # Case Study 1: Automatidata 🚕
-## Link here: [Case_study_1: Automatidata](https://github.com/amy941/Google_Advanced_Module-4_Statistics/blob/main/Case_Study_1_%20Automatidata.ipynb)
+## Link here: [Case_study_1: Automatidata](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_User_Claims_with_Statistics/Case_Study_1_%20Automatidata.ipynb)
 
 ## Scenario: 
 New York taxi and Limousine Commission (TLC) has approached the data consulting firm Automatidata to develop an app that enables TLC riders to estimate the taxi fares in advance of their ride. TLC reached out to data team at Automatidata to assist them answer these key questions:
@@ -81,7 +81,7 @@ Set ```equal_var=False``` because we don't want the 2 samples have the same vari
 
 
 # Case Study 2: TikTok 🎵
-## Link here: [Case_study_2: TikTok](https://github.com/amy941/Google_Advanced_Module-4_Statistics/blob/main/Case_Study_2_TikTok.ipynb)
+## Link here: [Case_study_2: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_User_Claims_with_Statistics/Case_Study_2_TikTok.ipynb)
 
 ## Scenario: 
 TikTok is working on the development of a predictive model that can determine whether a video contains a claim or offers an opinion. TikTok's data team has been asked to investigate TikTok's user claim dataset to determine which hypothesis testing method best serves the data and the claims classification project. Questions to be answered are:
