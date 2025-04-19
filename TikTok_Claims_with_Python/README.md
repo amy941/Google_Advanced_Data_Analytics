@@ -97,4 +97,4 @@ data.groupby(['claim_status', 'author_ban_status']).agg({
 ---
 # CERTIFICATE
 
-![cert](https://github.com/user-attachments/assets/4c221a20-ab34-4256-a5eb-830ba652d60b)
+![cert](https://github.com/user-attachments/assets/f94aa90b-73cc-40a3-913c-295ec7d05d51)
