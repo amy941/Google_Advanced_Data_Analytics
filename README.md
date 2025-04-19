@@ -20,4 +20,4 @@
 
 
 ## Capstone Project: 
-### 📊 Project: [Salifort Motors project]() 
+### 📊 Project: [Salifort Motors project](https://github.com/amy941/Google_Advanced_Data_Analytics/tree/main/Capstone_project) 
