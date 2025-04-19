@@ -10,12 +10,12 @@
 
 
 ## Module 4: The Power of Statistics
-### 📊 Project:[TikTok_User_Claims_with_Statistics](https://github.com/amy941/Google_Advanced_Data_Analytics/tree/main/TikTok_User_Claims_with_Statistics)
+### 📊 Project: [TikTok_User_Claims_with_Statistics](https://github.com/amy941/Google_Advanced_Data_Analytics/tree/main/TikTok_User_Claims_with_Statistics)
 
 
 
 ## Module 5: Regression Analysis: Simplify Complex Data Relationships
-### 📊 Project:[TikTok_Claims_Predictions_with_Regression](https://github.com/amy941/Google_Advanced_Data_Analytics/tree/main/TikTok_Claims_Predictions_with_Regression)
+### 📊 Project: [TikTok_Claims_Predictions_with_Regression](https://github.com/amy941/Google_Advanced_Data_Analytics/tree/main/TikTok_Claims_Predictions_with_Regression)
 
 
 
