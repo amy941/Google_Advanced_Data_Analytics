@@ -182,4 +182,6 @@ The end-of-course portfolio projects reinforced my data analysis skills in:
 # Closing Thoughts:
 Statistics is tough 🙃 It took me over a month to get the hang of the basics (very basic). Regardless, I think I'm in a better place than I was last month 🐌🐌🐌
 
+![cert](https://github.com/user-attachments/assets/296761c1-4803-40cf-8021-4b65775e4e38)
+
 
