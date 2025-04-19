@@ -88,11 +88,11 @@ data.groupby(['claim_status', 'author_ban_status']).agg({
 
 ✍️ **groupby()** was called directly on df. The data was grouped first by ```'claim_status'```, then by ```'author_ban_status'```. Then, the **agg()** function was applied to calculate the **count**, **mean**, and **median** for the three newly created columns: ```likes_per_view```, ```comments_per_view```, and ```shares_per_view```.
 
-⚠️⚠️⚠️ Check my work for further details about the earlier steps: [Case_study_1: TikTok](https://github.com/amy941/Google_Advanced_Module-2_Python/blob/main/Case%20Study%202_TikTok.ipynb) 
+⚠️⚠️⚠️ Check my work for further details about the earlier steps: [Case_study_1: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_with_Python/Case%20Study%202_TikTok.ipynb)
 
 ---
 # Case Study 2: Automatidata 🚕
-## Link here: [Case_study_2: Automatidata](https://github.com/amy941/Google_Advanced_Module-2_Python/blob/main/Case%20Study%201_Automatidata.ipynb)
+## Link here: [Case_study_2: Automatidata](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_with_Python/Case%20Study%201_Automatidata.ipynb)
 
 ---
 # CERTIFICATE
