@@ -52,11 +52,11 @@ data = pd.read_csv("tiktok_dataset.csv")
 
 ✍️ ```.info()```: provide **total number of rows** (19,382) **and columns** (12), also state the **names and data types** of each column and **the size** of the df.
 
-![info](https://github.com/user-attachments/assets/f0e528eb-5b3b-4617-91cf-cf0e16dcc966)
+![info](https://github.com/user-attachments/assets/f5dbec7e-7abc-4049-9078-998dddcc4c92)
 
 ✍️ ```.describe()```: generate a table of **descriptive stats.**
 
-![describe](https://github.com/user-attachments/assets/e56edd89-a1cc-46bb-b184-e6a4de071f36)
+![describe](https://github.com/user-attachments/assets/c46d41a5-2ece-45aa-978e-5a906d545180)
 
 🔴 **Things should notice:**
   
@@ -84,12 +84,12 @@ sns.boxplot(x=data['video_duration_sec'])
 
 plt.show()
 ```
-![boxplot_1](https://github.com/user-attachments/assets/2d2aa5b0-37e4-41c0-baf3-0a2657ed1e25)
+![boxplot_1](https://github.com/user-attachments/assets/f314421d-b487-4be6-a8b6-d62e1ee8e31b)
 
 
 ✍️ ```sns.boxplot(x=data['video_duration_sec'])```: *sns.boxplot()* function takes positional argument of x, representing the x-axis in the data. The x-axis will represent the ```video_duration_sec``` column from the df. 
 
-🔁 Write similar code blocks for ```video_view_count```, ```video_like_count```, ```video_comment_count```, ```video_share_count```, ```video_download_count```. The rest of my work: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Module-3_Translate-Data-into-Insights/blob/main/Case%20Study_%20TikTok%20.ipynb)
+🔁 Write similar code blocks for ```video_view_count```, ```video_like_count```, ```video_comment_count```, ```video_share_count```, ```video_download_count```. The rest of my work: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
 ```python
 plt.figure(figsize=(5,3))
@@ -100,7 +100,7 @@ sns.histplot(data['video_duration_sec'], bins=range(0, 61, 5))  #start, stop, st
 plt.show()
 ```
 
-![hist_1](https://github.com/user-attachments/assets/0677cd51-6254-43ac-9583-8cd75b43b03e)
+![hist_1](https://github.com/user-attachments/assets/55e7094f-dfec-410f-973e-b9beb0a779a0)
 
 ✍️ ```sns.histplot(x, bins, binrange, binwidth, ...)```: to generate a histogram in seaborn.
 - **x:** a sequence of values representing the data you want to plot.
@@ -128,7 +128,7 @@ ax.set_xticklabels(labels)
 plt.show()
 ```
 
-![hist_2](https://github.com/user-attachments/assets/f8d62a96-59da-4dc8-8172-423dc95f0ce9)
+![hist_2](https://github.com/user-attachments/assets/3b148851-e005-482d-9d44-745eb1a8437d)
 
 ✍️ ```sns.histplot(data['video_like_count'], bins=range(0, (7 * 10**5 + 1), 10**5))```: As we observed in the summary table for descriptive stats in step 2, the maximum of ```video_like_count``` is around 660,000 likes. Thus, we have to customize the bin range and bin width accordingly.
 - Start from 0 up to 700,000
@@ -165,7 +165,7 @@ sns.barplot(data=ban_status_counts,
 plt.show()
 ```
 
-![bar_median](https://github.com/user-attachments/assets/6b429f95-fe92-405c-92ae-643f05faa149)
+![bar_median](https://github.com/user-attachments/assets/08952775-bc8b-445b-928a-56de1008105a)
 
 
 ✍️ ```ban_status_counts = data.groupby(['author_ban_status']).median(numeric_only=True).reset_index()```
@@ -219,7 +219,7 @@ for column in count_cols:
     outlier_count = (data[column] > outlier_threshold).sum()
     print(f'Number of outliers, {column}:', outlier_count)
 ```
-![outliers](https://github.com/user-attachments/assets/2df4909c-5da7-4b6f-89c3-e951bfe61da7)
+![outliers](https://github.com/user-attachments/assets/2f038c47-42de-4f51-aff3-6a510dcc6745)
 
 ✍️
 - Create a **for loop** to iterate over the column names of each count variable.
@@ -244,7 +244,7 @@ sns.scatterplot(x=data["video_view_count"],
 
 plt.show()
 ```
-![scatterplot](https://github.com/user-attachments/assets/709bb0df-689f-40f9-b988-a8edfa5d6191)
+![scatterplot](https://github.com/user-attachments/assets/f991bcd1-fd0a-4e80-9047-1748d2862c6e)
 
 ⚠️⚠️⚠️ For more details, visit: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Data_Analysis_and_Visualization/Case%20Study_%20TikTok%20.ipynb)
 
@@ -269,4 +269,4 @@ plt.show()
 ---
 # CERTIFICATE
 
-![cert](https://github.com/user-attachments/assets/a1e194ec-a4bc-447d-bab0-5352e1d363ae)
+![cert](https://github.com/user-attachments/assets/9b2c66c0-3512-4f07-b935-1ace387e5e38)
