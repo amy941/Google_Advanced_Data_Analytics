@@ -1,6 +1,6 @@
 # OVERVIEW:
 # Case Study: TikTok 🎵
-## Link here: [Case Study: TikTok]()
+## Link here: [Case Study: TikTok](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_Predictions_with_Regression/TikTok_project.ipynb)
 
 ## Scenario:
 
@@ -28,7 +28,7 @@ TikTok observed that verified users are **more likely to post opinions rather th
    * ```video_duration_sec```, ```claim_status```, ```author_ban_status```
    * ```video_view_count```, ```video_share_count```, ```video_download_count```, ```video_comment_count```
 
-⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/TikTok_Claims_Predictions_with_Regression/blob/main/TikTok_project.ipynb)
+⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_Predictions_with_Regression/TikTok_project.ipynb)
     
 ---
 
@@ -77,7 +77,7 @@ data.loc[data['video_like_count'] > upper_limit, 'video_like_count'] = upper_lim
 
 🔁 Repeat for ```video_comment_count```
 
-⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/TikTok_Claims_Predictions_with_Regression/blob/main/TikTok_project.ipynb)
+⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_Predictions_with_Regression/TikTok_project.ipynb)
 
 ## Task 2) Explore Class Imbalance
 
@@ -159,7 +159,7 @@ plt.show()
     
  ---> to maintain model assumptions and avoid multicollinearity, we **remove** ```video_like_count```. Benefits: less redundancy, cleaner interpretation, improved model reliability and performance. 
 
-⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/TikTok_Claims_Predictions_with_Regression/blob/main/TikTok_project.ipynb)
+⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_Predictions_with_Regression/TikTok_project.ipynb)
 
 ---
 
@@ -217,7 +217,7 @@ log_clf.fit(X_train_final, y_train_final)
 ```.fit(...)```: train model, ```X_train_final```: numberic features, ```y_train_final```: binary target variable (0 for not verified, 1 for verified)
 
 
-⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/TikTok_Claims_Predictions_with_Regression/blob/main/TikTok_project.ipynb)
+⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_Predictions_with_Regression/TikTok_project.ipynb)
 
 
 ---
@@ -253,7 +253,7 @@ print(classification_report(y_test_final, y_pred, target_names=target_labels))
 - 65% accuracy
 - 71% f1-score
 
-⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/TikTok_Claims_Predictions_with_Regression/blob/main/TikTok_project.ipynb)
+⚠️⚠️⚠️ For more details, visit: [TikTok_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/TikTok_Claims_Predictions_with_Regression/TikTok_project.ipynb)
 
 ---
 # ✅ Conclusions
