@@ -51,7 +51,7 @@ print('MEAN view count claims: ', claims['video_view_count'].mean())
 print('MEDIAN view count claims: ', claims['video_view_count'].median())
 ```
 
-![claims](https://github.com/user-attachments/assets/c15340e5-3f41-40f4-9e6f-f2434da4f6ab)
+![claims](https://github.com/user-attachments/assets/a20b9e27-921d-439b-bed4-0e867ed532e3)
 
 ✍️ First, examine the amount of videos for each different claim status (claims vs. opinions).
 Next, create **BOOLEAN masking** to *filter* the data according to claim status, then determine **MEAN** and **MEDIAN** view counts for each claim status. 
@@ -71,7 +71,7 @@ print('MEAN view count opinions: ', opinions['video_view_count'].mean())
 print('MEDIAN view count opinions: ', opinions['video_view_count'].median())
 ```
 
-![opinions](https://github.com/user-attachments/assets/5ccba3a3-1459-4d77-a3a5-99f065789bf1)
+![opinion](https://github.com/user-attachments/assets/81339a9e-9a30-4257-9621-0fd1eac5efdd)
 
 ---
 **4) Grouping and Aggregation:**
@@ -84,7 +84,7 @@ data.groupby(['claim_status', 'author_ban_status']).agg({
 })
 ```
 
-![groupby](https://github.com/user-attachments/assets/d722f2bf-ad36-4ba8-a568-84e8faf21183)
+![groupby](https://github.com/user-attachments/assets/f162d39b-b164-42b3-b6fc-c954f62be196)
 
 ✍️ **groupby()** was called directly on df. The data was grouped first by ```'claim_status'```, then by ```'author_ban_status'```. Then, the **agg()** function was applied to calculate the **count**, **mean**, and **median** for the three newly created columns: ```likes_per_view```, ```comments_per_view```, and ```shares_per_view```.
 
