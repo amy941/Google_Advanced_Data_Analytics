@@ -27,17 +27,17 @@ data.info()
 data.describe()
 ```
 
-![head()](https://github.com/user-attachments/assets/77200b7a-3eca-486b-af2e-1171fc5f1b65)
+![head](https://github.com/user-attachments/assets/2cd35f16-0df7-4e29-91d3-47b806035dbb)
 
 ✍️ *.head()* is used to display a few first rows of df. Reviewing the first few rows, we can tell **df contains different data types (str, int, floats).** Each row represents a distinct TikTok video with comments and statuses. 
 
 
-![info()](https://github.com/user-attachments/assets/145e3092-8493-4ed5-969a-2dcd6c8ed669)
+![info](https://github.com/user-attachments/assets/9ba3e14c-641b-43e9-ba3d-bf57c202ba88)
 
 ✍️ *.info()* is for summary info. The output shows df contains **5 floats, 3 integers, and 4 objects.** Total video counts is **19382 videos**. There are some **missing values** in variables as ```claim_status```, ```video_transcription_text```, and all ```count``` variables.
 
 
-![describe()](https://github.com/user-attachments/assets/2c234a9d-8059-45f4-b39a-8381b3be542a)
+![describe](https://github.com/user-attachments/assets/722d0424-2c24-439c-942b-420d9ef593fa)
 
 ✍️ *.describe()* is for descriptive statistics summary. **Many 'count' variables have outliers.**
 
