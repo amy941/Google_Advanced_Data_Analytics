@@ -25,7 +25,7 @@ First, take a glimpse at the big data to understand how the dataset is structure
  taxi_data.describe(include='all')
  ```
 
-![describe()](https://github.com/user-attachments/assets/9b3dcf70-2f0c-41a5-9a3a-80af6de01a19)
+![describe](https://github.com/user-attachments/assets/40ca3454-f285-408b-9568-9d56987fe66a)
 
 ✍ *.describe()* generates the table with basic descriptive stats: mean, std deviation, min/max, interquartile, etc.
      
@@ -34,7 +34,7 @@ taxi_data.groupby('payment_type')['fare_amount'].mean()
 ```
 ✍ Use *.groupby()* and *.mean()* to compute the mean value of **fare_amount(price)** for each group of **payment_type** (credit card, cash,...) in the sample data.
 
-![avg mean](https://github.com/user-attachments/assets/1c9d15bb-1da5-43a8-816d-22337b4468da)   
+![avg_mean](https://github.com/user-attachments/assets/268dd59d-9adc-4ac9-940b-59dad94fa03a)  
 
 ✍*1-Credit card, 2-Cash, 3-No charge, 4: Dispute, 5-Unknown*
    
@@ -61,7 +61,7 @@ Finally, after filtering data for ONLY credit card payment, ```['fare_amount']``
 ```python
 stats.ttest_ind(a=credit_card, b=cash, equal_var=False)
 ```
-![p-value](https://github.com/user-attachments/assets/68576db6-f04d-4428-8611-4c9f6fdeca0e)
+![p_value](https://github.com/user-attachments/assets/5fbd8b83-7773-4141-bb8c-2f4f930091fe)
 
 ✍ Proceed with a **two-sample t-test** to compute p-value given 5% as the significant level.
 
@@ -101,12 +101,12 @@ A quick overview of the content and structure of a dataset before proceeding. Th
 ```python
 data.describe(include= 'all')
 ```
-![describe()_tiktok](https://github.com/user-attachments/assets/3ada81fd-1977-4bb2-b4c6-e6ef899a9347)
+![describe_tiktok](https://github.com/user-attachments/assets/cb5bd096-8899-4fdb-bf7b-91316d64667b)
 
 ```python
 data.isna().sum()
 ```
-![isna()_tiktok](https://github.com/user-attachments/assets/d2d6a6f3-6cc3-42f4-b438-4adfb13471e0)
+![isna_tiktok](https://github.com/user-attachments/assets/20e99adc-018c-4a32-ae8a-862974a6e68e)
 
 ✍ Cleaning dataset: *.isna()* stands for **is NaN** (is Not-a-Number, means data is missing). It's used to check and handle missing values in a dataset.
 
@@ -120,14 +120,14 @@ data = data.dropna(axis=0)
 ```
 ✍ To further clean up the dataset, *.dropna(axis=0)* is used to drop rows with missing values from previous step. Then, we use *.head()* to displace the new set of data after cleaning.
 
-![describe()_after clean_tiktok](https://github.com/user-attachments/assets/17479257-7c52-4b3d-be4c-64a128abbbdf)
+![describe_after clean_tiktok](https://github.com/user-attachments/assets/e4331f50-d1ae-4390-bc92-4ad26f1a500a)
 
 Table above shows the finalized dataset after cleaning. 
 
 ```python
 data.groupby("verified_status")["video_view_count"].mean()
 ```
-![mean()_tiktok](https://github.com/user-attachments/assets/dbf5a15f-33c6-42f6-b406-7a09c35d44ee)
+![mean_tiktok](https://github.com/user-attachments/assets/6902dc84-9c92-4d11-9883-a200c299bd20)
 
 ✍ We're intested in the relationship between ```verified_status``` and ```video_view_count```. Use *.groupby()* and *.mean()* to compute the average of **video_view_count** for each group of **verified_status** in the sample data.
 The output of the code shows **not_verified_videos has more views than verified_videos,** 265663 views vs. 91439 views, respectively.
@@ -152,7 +152,7 @@ stats.ttest_ind(a=not_verified, b=verified, equal_var=False)
 
 🔁 Do the same for "verifed" case.
 
-![p-value_tiktok](https://github.com/user-attachments/assets/075c9797-6d26-43b5-824b-6106231f7a4a)
+![p_value_tiktok(https://github.com/user-attachments/assets/d37bdd69-2990-40a6-a752-ac1dffcca7ff)
 
 ✍ Proceed with a **two-sample t-test** to compute p-value given 5% as the significant level. After excecuting the code, p-value is (2.61e^-118)%, negligible!
 
@@ -181,3 +181,5 @@ The end-of-course portfolio projects reinforced my data analysis skills in:
   
 # Closing Thoughts:
 Statistics is tough 🙃 It took me over a month to get the hang of the basics (very basic). Regardless, I think I'm in a better place than I was last month 🐌🐌🐌
+
+
