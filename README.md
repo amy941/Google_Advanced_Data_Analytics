@@ -19,4 +19,5 @@
 
 
 
-## Capstone Project: [Salifort Motors project]() 
+## Capstone Project: 
+### 📊 Project: [Salifort Motors project]() 
