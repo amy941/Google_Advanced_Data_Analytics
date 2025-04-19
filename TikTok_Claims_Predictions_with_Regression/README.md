@@ -57,9 +57,9 @@ sns.boxplot(x=data['video_like_count'], color='lightpink')
 plt.show()
 
 ```
-![video_like_count](https://github.com/user-attachments/assets/a85254d3-c3f0-44ac-a8cf-ef773297a6e0)
+![video_like_count](https://github.com/user-attachments/assets/c58ea689-70ef-445c-ada6-04fb2580732c)
 
-![video_comment_count](https://github.com/user-attachments/assets/71118643-0a35-4084-b039-1b53be1f8323)
+![video_comment_count](https://github.com/user-attachments/assets/3874bbdd-a439-430d-97b8-f4412bd488cd)
 
 ✍ The ```video_like_count``` boxplot revealed a **long right tail**, meaning a few videos had **extremely high like counts** (1e5 ~ 6e5). To handle this, we **capped** the extreme values using **IQR rule**
 
@@ -85,7 +85,7 @@ data.loc[data['video_like_count'] > upper_limit, 'video_like_count'] = upper_lim
 ```
 data['verified_status'].value_counts(normalize=True)
 ```
-![verified_account](https://github.com/user-attachments/assets/37a9db15-3359-4433-8c69-1b296393d0b2)
+![verified_account](https://github.com/user-attachments/assets/1a3100ae-ca81-498c-8314-cbd49cca6549)
 
 ✍ **93.7%** videos posted by unverified accounts and **6.3% videos posted by verified accounts.** So, the outcome variable is not very balanced --> need **UPSAMPLING**
 
@@ -109,7 +109,7 @@ data_upsampled = pd.concat([data_majority, data_minority_upsampled]).reset_index
 data_upsampled['verified_status'].value_counts()
 ```
 
-![upsampled](https://github.com/user-attachments/assets/e725a3d0-a244-4a38-a275-75e469ad2690)
+![upsampled](https://github.com/user-attachments/assets/0b28ca4b-b5af-4325-a1da-7302344ab7d7)
 
 ✍ **Upsampling** to create class balance in the outcome variable. not verified = verified = 17884
 
@@ -126,7 +126,7 @@ data_upsampled['verified_status'].value_counts()
 ```
 data_upsampled[["verified_status", "video_transcription_text"]].groupby(by="verified_status")[["video_transcription_text"]].agg(func=lambda array: np.mean([len(text) for text in array]))
 ```
-![text_length](https://github.com/user-attachments/assets/8fb04297-da84-4694-9fc9-7193da1a9ecd)
+![text_length](https://github.com/user-attachments/assets/c35d80a8-fed6-4960-b161-832acb4d9262)
 
 ✍ Use **lambda** function to calculate the length in ```video_transcription_text``` column, then store the result in a new column called ```text_length```
 
@@ -147,7 +147,7 @@ sns.heatmap(
 plt.title("Heatmap of the dataset")
 plt.show()
 ```
-![heatmap](https://github.com/user-attachments/assets/f0b81e19-57dd-48e2-82b8-90f4716c4947)
+![heatmap](https://github.com/user-attachments/assets/7dcfe198-abc9-47a9-877b-bbf06631f4d7)
 
 ✍ Heatmap reveals strong correlation: ```video_view_count``` & ```video_like_count``` (0.86 correlation coeff.)
 
@@ -203,7 +203,7 @@ plt.show()
     X_train_encoded_df
 ], axis=1)
 ```
-![X_train_final](https://github.com/user-attachments/assets/2637dd3b-a5b3-4ffc-88b9-2ce10cad9843)
+![X_train_final](https://github.com/user-attachments/assets/4bd4aefe-4952-4d12-a83d-4c2eaaa1ef8e)
 
 ## Task 3) Model Building
 ### LogisticRegression
@@ -231,7 +231,7 @@ log_disp.plot()
 plt.show()
 ```
 
-![confusion_matrix](https://github.com/user-attachments/assets/cf8c2f3a-7248-423b-8eb0-6b8c59c80697)
+![confusion_matrix](https://github.com/user-attachments/assets/32919217-e40f-4778-a8fa-e59caa22905a)
 
 ✍ Confusion Matrix shows:
 - Upper left: True Negative (2,044) ✅
@@ -245,7 +245,8 @@ plt.show()
 target_labels = ["verified", "not verified"]
 print(classification_report(y_test_final, y_pred, target_names=target_labels))
 ```
-![performance_metrics](https://github.com/user-attachments/assets/dc4c6fe8-ef1a-4fbd-9d9f-bdbc168ee211)
+![performance_matrix](https://github.com/user-attachments/assets/607eee5c-d533-4ed1-8c91-8207f40426ee)
+
 
 ✍ Logistic Regression model achieved:
 - 61% precision
@@ -269,6 +270,6 @@ print(classification_report(y_test_final, y_pred, target_names=target_labels))
   
 ---
 # CERTIFICATE
-![cert](https://github.com/user-attachments/assets/368daf48-3337-4339-8d74-fab53d9b7ef6)
+![cert](https://github.com/user-attachments/assets/2ba8601d-c8cb-456b-b776-09213cabcf29)
 
 
