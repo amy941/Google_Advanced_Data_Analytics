@@ -16,3 +16,19 @@
 
 
 ## 🎓Capstone Project: [Salifort Motors project](https://github.com/amy941/Google_Advanced_Data_Analytics/tree/main/Capstone_project) 
+
+---
+
+Completed extensive six month job-ready **Google Career Certificate** training. Demonstrated hands-on experience with **data cleaning, data visualization, project management, interpreting and communicating data analytics findings.** Confidence in transforming complex data into actionable and clear insights. Fluency in computer programming languages and a solid understanding of databases.
+- **Python** (NumPy, Pandas, Seaborn, Matplotlib, scikit-learn)
+- **Exploratory Data Analysis** (EDA) & data visualizations with Python
+- **Statistics** (A/B Testing, Hypothesis Testing)
+- **Predictive Modelling** (Linear and Logistic Regression)
+- **Machine Learning** (unsupervised/supervised learning, tree-based modeling)
+- **Tableau**
+- **Executive Reporting**
+
+
+![final_cert](https://github.com/user-attachments/assets/21e5158e-7f32-40ee-9efc-9c70681fd567)
+
+![badge](https://github.com/user-attachments/assets/3b4581dd-a301-400d-91eb-bdcc5934da40)
