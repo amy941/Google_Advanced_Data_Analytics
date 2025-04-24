@@ -26,7 +26,7 @@ Completed extensive six month job-ready **Google Career Certificate** training. 
 - **Predictive Modelling** (Linear and Logistic Regression)
 - **Machine Learning** (unsupervised/supervised learning, tree-based modeling)
 - **Tableau**
-- **Executive Reporting**
+- **Executive Report**
 
 
 ![final_cert](https://github.com/user-attachments/assets/21e5158e-7f32-40ee-9efc-9c70681fd567)
