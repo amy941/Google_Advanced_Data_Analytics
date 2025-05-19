@@ -15,16 +15,17 @@ I'm working on it :)
 ## Data Understanding
 Google provided datasets for a fictional company called "Salifort Motors". The data includes about 12,000 employees, each with 9 features related to satisfaction level, performance evaluation, salary, company history, department, and contributed projects.
 
-- **Exploratory Data Analysis (EDA)** reveals:
+### 1) Exploratory Data Analysis (EDA)** reveals:
   * **~83% of employees staying**
   * **~17% of employees left**
     
-- **Ratio plot** also shows the same findings: 83% staying, 17% left
+### 2) Ratio plot also shows the same findings: 
+   83% staying, 17% left
 
   [ADD PLOT]
 
 
-- Relationship between ```average_monthly_hours``` and ```promotion_last_5years```
+### 3) Relationship between ```average_monthly_hours``` and ```promotion_last_5years```
   
   **Categorical scatter plot** shows:
   * Blue dominated on Top row--> **Most promoted employees stayed, very few promoted left**
@@ -34,3 +35,6 @@ Google provided datasets for a fictional company called "Salifort Motors". The d
 
   
  [ADD PLOT]
+
+
+ ### 4) Heatmap
