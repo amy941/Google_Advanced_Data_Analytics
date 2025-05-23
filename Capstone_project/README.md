@@ -16,8 +16,7 @@ Google provided datasets for a fictional company called "Salifort Motors". The d
 ### 1) Exploratory Data Analysis (EDA) reveals:
 ### 1.1) Descriptive Statistics
 
- [Add figure]  
-
+![descriptive](https://github.com/user-attachments/assets/9d7fd857-47b8-4487-8ccf-d6945091f9c1)
 
  
 ✍🏻 _I examined the dataset using statistical methods and gained critical insights:_
@@ -32,20 +31,25 @@ Google provided datasets for a fictional company called "Salifort Motors". The d
   
     
 ### 1.2) Data Exploration (continue EDA)
+```
+print('Number of people who left: ')
+print(df1['left'].value_counts())
 
-[ add figure]
+print('\nPercentage of people who left: ')
+print(df1['left'].value_counts(normalize=True)*100)
+```
+
+![EDA](https://github.com/user-attachments/assets/2f619f8c-20d0-40e0-89e6-0c335c888f0e)
 
 
-  * **~83% of employees staying**
-  * **~17% of employees left**
+✍🏻 **~83% of employees staying, ~17% of employees left**
     
 ### 1.3) Data visualization
 
- [ADD PLOT]
+![ratio_plot](https://github.com/user-attachments/assets/ed00ed12-ec15-4641-9107-6ec3cb03bc16)
 
  
-_Ratio plot also shows the same findings:_
-
+✍🏻_Ratio plot also shows the same findings:_
   **83% staying, 17% left**
 
 
@@ -53,10 +57,7 @@ _Ratio plot also shows the same findings:_
 
 ### 2) Relationship between ```average_monthly_hours``` and ```promotion_last_5years```
 
-
- [ADD PLOT]
-
-
+![scatter_plot](https://github.com/user-attachments/assets/c94e1e3f-80f5-41cf-84f3-049e96afdaf0)
  
  ✍🏻 **Categorical scatter plot** shows:
   * Blue dominated on Top row--> **Most promoted employees stayed, very few promoted left**
@@ -74,10 +75,10 @@ _Correlation Heatmap shows how strong variables are related to each other, gives
 * **0** (no relation)
 * **-1** (one goes up, other goes down)
   
- [add Heatmap]
+![heatmap](https://github.com/user-attachments/assets/2fb2edb9-1de4-412e-b723-f6be895f7555)
 
 
- #### Key Insights 🗝️
+ ### Key Insights 🗝️
 - **Satisfaction and Leaving:** The darker box with **-0.39** means people who are **less satisfied are more likely to leave** the company.
 
 - **Projects and Hours:** The box with **0.42** means if someone has **more projects**, they also usually work **more hours**.
@@ -104,8 +105,7 @@ _Correlation score between -1 and 1:_
 * **0** = no connection
 * **-1** = opposite connection (one up, one down)
 
-[add heatmap]
-
+![heatmap_2](https://github.com/user-attachments/assets/4c77f062-b97f-418d-a4c8-4a78c9a9ae82)
 
 ### Key Insights 🗝️
 
@@ -135,9 +135,11 @@ _Correlation score between -1 and 1:_
 - There’s **no strong link** between how **happy** people are and how much they **work**.
 - **Staying longer** at the company might make some people a bit **less satisfied**.
 
+---
+
 ### 5) Confusion Matrix
 
-[ add figure]
+![confusion_matrix](https://github.com/user-attachments/assets/a39b37f1-817c-4772-8597-2dac9f2bc106)
 
 ### Key Insights 🗝️
 - **Top left (True Negatives):** 2165 -- People who **stayed**, computer guessed they would **stay**. Yay, correct guess! ✅
@@ -150,9 +152,15 @@ _Correlation score between -1 and 1:_
   * People who **stayed**, would be in **Top left**
   * People who **left**, would be in **Bottom right**
 
+---
 ### 6) Recal evaluation metrics
 
-[add figure]
+```
+target_names = ['Predicted would not leave', 'Predicted would leave']
+print(classification_report(y_test, y_pred, target_names=target_names))
+```
+
+![recall_metrics](https://github.com/user-attachments/assets/efac011a-cb82-4212-9e3a-e05c890c2002)
 
 ### Key Insights 🗝️
 The Logistic Regression model achieved:
@@ -166,9 +174,11 @@ The Logistic Regression model achieved:
 - Logistic Regression model looks **pretty good overall** with 82% Accuracy
 - However, the **model isn't as good** when predicting employees who **leave**, scores significantly lower
 
+---
+
 ## Results & Evaluation
-1) Employees with more projects, will overwork, and get better performance scores.
-2) Employees with more projects, are unhappy, and more likely to leave.
-3) No strong connection between working hours and employee satisfaction.
-4) Longer tenure is slightly associated with lower satisfaction over time.
-5) Logistic Regression model works well for stayers, but not leavers.
+1) Employees with **more projects**, will **overwork**, and get **better performance scores**.
+2) Employees with **more projects**, are **unhappy**, and more likely to **leave**.
+3) **No strong connection** between **working hours** and employee **satisfaction**.
+4) **Longer tenure** is slightly associated with **lower satisfaction** over time.
+5) **Logistic Regression model works well for stayers**, but not leavers.
