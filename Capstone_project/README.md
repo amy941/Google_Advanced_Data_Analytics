@@ -1,5 +1,3 @@
-I'm working on it :)
-
 # Forecasting Employee Turnover Rates & What Causes It
 
 ## Goal
