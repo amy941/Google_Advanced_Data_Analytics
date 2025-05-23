@@ -49,7 +49,7 @@ print(df1['left'].value_counts(normalize=True)*100)
 ![ratio_plot](https://github.com/user-attachments/assets/ed00ed12-ec15-4641-9107-6ec3cb03bc16)
 
  
-✍🏻_Ratio plot also shows the same findings:_
+✍🏻 _Ratio plot also shows the same findings:_
   **83% staying, 17% left**
 
 ⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project]()
@@ -153,7 +153,7 @@ _Correlation score between -1 and 1:_
 - **Bottom right (True Positives):** 123 -- People who **left**, and computer guessed they would **leave**. Yay! ✅
 
 ### Conclusions ✍🏻
-- If the computer was perfect, it would only make correct guesses.
+- **If the computer was perfect**, it would only make correct guesses.
   * People who **stayed**, would be in **Top left**
   * People who **left**, would be in **Bottom right**
 
