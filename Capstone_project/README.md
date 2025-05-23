@@ -1,16 +1,16 @@
-# Forecasting Employee Turnover Rates & What Causes It
+# Forecasting Employee Turnover Rates & What Causes It 📝
 
-## Goal
+## Goal 🎯
 - Providing HR with insights into why employees leave the company.
 
-## Business Understanding
+## Business Understanding 👨🏻‍💼👩🏻‍💼
 - HR department at Salifort Motors is looking for ways to boost employee satisfaction. They want data to help answer: _“What factors lead employees to leave the company?”_
   
 **- Tasks:**
   * Analyze data 
   * Build a model to predict whether an employee is likely to leave.
 
-## Data Understanding
+## Data Understanding 📊
 Google provided datasets for a fictional company called "Salifort Motors". The data includes about 12,000 employees, each with 9 features related to satisfaction level, performance evaluation, salary, company history, department, and contributed projects.
 
 ### 1) Exploratory Data Analysis (EDA) reveals:
@@ -186,7 +186,7 @@ The Logistic Regression model achieved:
 
 ---
 
-## Results & Evaluation
+## Results & Evaluation 🤝
 1) Employees with **more projects**, will **overwork**, and get **better performance scores**.
 2) Employees with **more projects**, are **unhappy**, and more likely to **leave**.
 3) **No strong connection** between **working hours** and employee **satisfaction**.
