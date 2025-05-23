@@ -79,7 +79,7 @@ _Correlation Heatmap shows how strong variables are related to each other, gives
  [add Heatmap]
 
 
- #### Key Insights:
+ #### Key Insights 🗝️
 - **Satisfaction and Leaving:** The darker box with **-0.39** means people who are **less satisfied are more likely to leave** the company.
 
 - **Projects and Hours:** The box with **0.42** means if someone has **more projects**, they also usually work **more hours**.
@@ -92,10 +92,85 @@ _Correlation Heatmap shows how strong variables are related to each other, gives
 
 - **Most other boxes are light-colored**, which means **many things aren’t strongly related**.
 
-✍🏻 *People who work on more projects usually work more hours and get better performance scores. Also, people who are not happy at work are more likely to quit.*
+### Conclusions ✍🏻
+- People who work on **more projects** usually **work longer hours** and get **better performance scores**.
+- People who are assigned **more projects** tend to be **unhappy** at work and more **likely to quit**.
 
 ---
 
 
 ### 4) Logistic Regression
 
+_Correlation score between -1 and 1:_
+* **1** = very strong connection (go up together)
+* **0** = no connection
+* **-1** = opposite connection (one up, one down)
+
+[add heatmap]
+
+
+### Key Insights 🗝️
+
+- **Number of Projects & Monthly Hours: 0.33**
+→ People who do **more projects** also work **more hours**.
+
+- **Evaluation & Number of Projects: 0.27**
+→ People with **better evaluations** tend to have **more projects**.
+
+- **Evaluation & Monthly Hours: 0.26**
+→ **Better performers** also tend to work **more hours**.
+
+- **Satisfaction & Tenure (Years at Company): -0.15**
+→ People who **stay longer** may be slightly **less satisfied**
+
+- **Satisfaction & Projects: -0.13**
+→ **More projects** might mean a little **less happiness**.
+
+- **Satisfaction & Monthly Hours: -0.0063**
+→ Almost **no link** between happiness and working long hours.
+
+- **Evaluation & Tenure: 0.097**
+→ A **tiny connection** between experience and performance.
+
+### Conclusions ✍🏻
+- People with **more projects** usually **work more hours** and **perform better**.
+- There’s **no strong link** between how **happy** people are and how much they **work**.
+- **Staying longer** at the company might make some people a bit **less satisfied**.
+
+### 5) Confusion Matrix
+
+[ add figure]
+
+### Key Insights 🗝️
+- **Top left (True Negatives):** 2165 -- People who **stayed**, computer guessed they would **stay**. Yay, correct guess! ✅
+- **Top right (False Positives):** 156 -- People who **stayed**, but computer wrongly guessed they would **leave**. Oops! ❌
+- **Bottom left (False Negatives):** 348 -- People who **left**, but computer guessed they would **stay**. Oops! ❌
+- **Bottom right (True Positives):** 123 -- People who **left**, and computer guessed they would **leave**. Yay! ✅
+
+### Conclusions ✍🏻
+- If the computer was perfect, it would only make correct guesses.
+  * People who **stayed**, would be in **Top left**
+  * People who **left**, would be in **Bottom right**
+
+### 6) Recal evaluation metrics
+
+[add figure]
+
+### Key Insights 🗝️
+The Logistic Regression model achieved:
+- Precision of 79%,
+- Recall of 82%,
+- F1-score of 80%,
+- Accuracy of 82%,
+- AUC score of 89%.
+
+### Conclusions ✍🏻
+- Logistic Regression model looks **pretty good overall** with 82% Accuracy
+- However, the **model isn't as good** when predicting employees who **leave**, scores significantly lower
+
+## Results & Evaluation
+1) Employees with more projects, will overwork, and get better performance scores.
+2) Employees with more projects, are unhappy, and more likely to leave.
+3) No strong connection between working hours and employee satisfaction.
+4) Longer tenure is slightly associated with lower satisfaction over time.
+5) Logistic Regression model works well for stayers, but not leavers.
