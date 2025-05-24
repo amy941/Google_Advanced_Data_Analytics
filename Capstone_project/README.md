@@ -196,4 +196,4 @@ The Logistic Regression model achieved:
 4) **Longer tenure** is slightly associated with **lower satisfaction** over time.
 5) **Logistic Regression model works well for stayers**, but not leavers.
 
-```If you're in HR, data, or leadership—what retention strategies do you think matter most? I'd love your take.```
+"If you're in HR, data, or leadership — **what retention strategies do you think matter most?** I'd love your take." 🙂
