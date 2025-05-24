@@ -1,4 +1,4 @@
-# Forecasting Employee Turnover Rates & What Causes It 📝
+# Forecasting Employee Turnover: Causes & Insights 📉
 
 ## Goal 🎯
 - Providing HR with insights into why employees leave the company.
