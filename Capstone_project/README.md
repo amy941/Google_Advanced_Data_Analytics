@@ -52,7 +52,7 @@ print(df1['left'].value_counts(normalize=True)*100)
 ✍🏻 _Ratio plot also shows the same findings:_
   **83% staying, 17% left**
 
-⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
+👉 For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
 
 ---
 
@@ -66,8 +66,7 @@ print(df1['left'].value_counts(normalize=True)*100)
   * Orange toward right end--> **Leavers worked the longest hours, eventually left**
 
 
-⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
-
+👉 For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
 ---
 
  ### 3) Correlation Heatmap
@@ -97,7 +96,7 @@ _Correlation Heatmap shows how strong variables are related to each other, gives
 - People who work on **more projects** usually **work longer hours** and get **better performance scores**.
 - People who are assigned **more projects** tend to be **unhappy** at work and more **likely to quit**.
 
-⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
+👉 For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
 
 ---
 
@@ -139,7 +138,7 @@ _Correlation score between -1 and 1:_
 - There’s **no strong link** between how **happy** people are and how much they **work**.
 - **Staying longer** at the company might make some people a bit **less satisfied**.
 
-⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
+👉 For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
 
 ---
 
@@ -161,7 +160,7 @@ _Correlation score between -1 and 1:_
 - The **model is good at finding people who stay**, not who leave
 - The model **needs improvement** in predicting leavers
 
-⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
+👉 For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
 
 ---
 
@@ -186,7 +185,7 @@ The Logistic Regression model achieved:
 - Logistic Regression model looks **pretty good overall** with 82% Accuracy
 - However, the **model isn't as good** when predicting employees who **leave**, scores significantly lower
 
-⚠️⚠️⚠️ For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
+👉 For more details, visit: [Salifort_Motors_project](https://github.com/amy941/Google_Advanced_Data_Analytics/blob/main/Capstone_project/20250418_Salifort%20Motors%20project%20lab.ipynb)
 
 ---
 
