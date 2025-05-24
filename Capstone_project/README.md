@@ -80,7 +80,7 @@ _Correlation Heatmap shows how strong variables are related to each other, gives
 ![heatmap](https://github.com/user-attachments/assets/2fb2edb9-1de4-412e-b723-f6be895f7555)
 
 
- ### Key Insights 🗝️
+ ### Key Insights 
 - **Satisfaction and Leaving:** The box with **-0.39** means people who are **less satisfied are more likely to leave** the company ⬆️⬇️
 
 - **Projects and Hours:** The box with **0.42** means if someone has **more projects**, they also usually work **more hours** ⬆️⬆️
@@ -93,7 +93,7 @@ _Correlation Heatmap shows how strong variables are related to each other, gives
 
 - **Most other boxes are light-colored**, which means **many things aren’t strongly related** ❌
 
-### Conclusions ✍🏻
+### Conclusions 
 - People who work on **more projects** usually **work longer hours** and get **better performance scores**.
 - People who are assigned **more projects** tend to be **unhappy** at work and more **likely to quit**.
 
@@ -111,7 +111,7 @@ _Correlation score between -1 and 1:_
 
 ![heatmap_2](https://github.com/user-attachments/assets/4c77f062-b97f-418d-a4c8-4a78c9a9ae82)
 
-### Key Insights 🗝️
+### Key Insights 
 
 - **Number of Projects & Monthly Hours: 0.33**
 → People who do **more projects** also work **more hours** ⬆️⬆️
@@ -134,7 +134,7 @@ _Correlation score between -1 and 1:_
 - **Evaluation & Tenure: 0.097**
 → A **tiny connection** between experience and performance ❌
 
-### Conclusions ✍🏻
+### Conclusions 
 - People with **more projects** usually **work more hours** and **perform better**.
 - There’s **no strong link** between how **happy** people are and how much they **work**.
 - **Staying longer** at the company might make some people a bit **less satisfied**.
@@ -150,13 +150,13 @@ _Correlation score between -1 and 1:_
 
 ![confusion_matrix](https://github.com/user-attachments/assets/a39b37f1-817c-4772-8597-2dac9f2bc106)
 
-### Key Insights 🗝️
+### Key Insights 
 - **Top left (True Negatives):** 2165 people **stayed**, computer guessed they would **stay**. Yay, correct guess! ✅
 - **Top right (False Positives):** 156 people **stayed**, but computer wrongly guessed they would **leave**. Oops! ❌
 - **Bottom left (False Negatives):** 348 people **left**, but computer guessed they would **stay**. Oops! ❌
 - **Bottom right (True Positives):** 123 people **left**, and computer guessed they would **leave**. Yay! ✅
 
-### Conclusions ✍🏻
+### Conclusions 
 - **If the computer was perfect**, it would only make correct guesses --> in **Top left** and **Bottom right**
 - The **model is good at finding people who stay**, not who leave
 - The model **needs improvement** in predicting leavers
@@ -174,7 +174,7 @@ print(classification_report(y_test, y_pred, target_names=target_names))
 
 ![recall_metrics](https://github.com/user-attachments/assets/efac011a-cb82-4212-9e3a-e05c890c2002)
 
-### Key Insights 🗝️
+### Key Insights 
 The Logistic Regression model achieved:
 - Precision of 79%,
 - Recall of 82%,
@@ -182,7 +182,7 @@ The Logistic Regression model achieved:
 - Accuracy of 82%,
 - AUC score of 89%.
 
-### Conclusions ✍🏻
+### Conclusions 
 - Logistic Regression model looks **pretty good overall** with 82% Accuracy
 - However, the **model isn't as good** when predicting employees who **leave**, scores significantly lower
 
