@@ -3,7 +3,7 @@
 ## Goal 🎯
 - Providing HR with insights into why employees leave the company.
 
-## Business Understanding 👨🏻‍💼👩🏻‍💼
+## Business Understanding 💼
 - HR department at Salifort Motors is looking for ways to boost employee satisfaction. They want data to help answer: _“What factors lead employees to leave the company?”_
   
 **- Tasks:**
