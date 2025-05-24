@@ -195,3 +195,5 @@ The Logistic Regression model achieved:
 3) **No strong connection** between **working hours** and employee **satisfaction**.
 4) **Longer tenure** is slightly associated with **lower satisfaction** over time.
 5) **Logistic Regression model works well for stayers**, but not leavers.
+
+```If you're in HR, data, or leadership—what retention strategies do you think matter most? I'd love your take.```
